@@ -102,7 +102,7 @@ export default function Home() {
               At Massdriver, we believe in prevention, not permission.
             </p>
             <p className="mt-6 text-xl text-gray-700 leading-relaxed">
-              Our platform lets <span className="font-semibold">"ops"</span> teams encode their expertise and your organization’s 
+              Our platform lets <span className="font-semibold">&quot;ops&quot;</span> teams encode their expertise and your organization’s 
               non-negotiables into preapproved self-service infrastructure powered by the IaC tools you already know.
             </p>
             <p className="mt-4 text-lg font-medium text-gray-900">
@@ -205,7 +205,8 @@ export default function Home() {
 
         {/* Still Have Questions Section */}
         <section className="bg-gray-50 text-center py-20 px-4 sm:px-6 lg:px-8"
-        style={{ backgroundImage: "linear-gradient(#06212d, #1e3741)" }}        >
+          style={{ backgroundImage: "linear-gradient(#06212d, #1e3741)" }}
+        >
           <h2 className="text-4xl font-extrabold text-white sm:text-5xl">
             Still have questions?
           </h2>
